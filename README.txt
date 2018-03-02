@@ -28,7 +28,7 @@ Note: Import Mesh/Skeleton sequences in order
 3) Select target poses and click on "target seq" button
 
 4) If you have connection link structure of skeleten as separate file then provide path in "face path" box as ".txt" file else keep it "Default".
-5) Then click on "Preprocessing" button to intialize process
+5) Then click on "Preprocessing" button to initialize process
 
 6) Click on "DTPI" button to get target sequence.
 
