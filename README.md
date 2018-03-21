@@ -9,7 +9,7 @@ You must install following libreries for Python 3,
 2) Scipy
 
 # Cite the Paper
-Prashant Domadiya, Pratik Shah and Suman K Mitra, "Vector Graph Representation for Deformation Transfer Using Poisson Interpolation", in IEEE Winter Conference on Application of Computer Vision, South Lake Tahoe, USA, 2018.
+Prashant Domadiya, Pratik Shah and Suman K Mitra, "Vector Graph Representation for Deformation Transfer Using Poisson Interpolation", in IEEE Winter Conference on Application of Computer Vision (WACV18), South Lake Tahoe, USA, March 2018.
 
 # Any Query
 Drop your mail at pmdomadiya@gmail.com
