@@ -245,7 +245,7 @@ class DeformationTransferTools(bpy.types.Operator):
         NV=int(NV/3)
         NF,NVF=np.shape(F)
 
-        t=np.size(trgtInpt)/len(trgtInpt)
+        t=int(np.size(trgtInpt)/len(trgtInpt))
         Trgt=np.zeros([len(trgtInpt),2])
         if t>=2:
             Trgt[:,0]=trgtInpt[:,0]
