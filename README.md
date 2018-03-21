@@ -1,5 +1,8 @@
 # DeformationTransferToolBlender
 
+# Future improvement
+It will be improvised soon for non-identical source and traget meshes (have different resolutions) .... 
+
 # Dependency
 You must install following libreries for Python 3,
 1) Numpy 
