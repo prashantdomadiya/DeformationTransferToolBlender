@@ -253,6 +253,7 @@ class DeformationTransferTools(bpy.types.Operator):
         else:
             Trgt[:,0]=trgtInpt
             Trgt[:,1]=trgtInpt
+            NPs+=1
         
         if self.seqType=="Initialization":
             X=ConnectionMatrices(np.reshape(sourceInpt[:,0],(NV,3)),np.reshape(Trgt[:,0],(NV,3)),F,NV,NF,NVF)
