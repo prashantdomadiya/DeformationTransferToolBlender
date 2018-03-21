@@ -236,7 +236,7 @@ class DeformationTransferTools(bpy.types.Operator):
     seqType = bpy.props.StringProperty()
     
     def execute(self,context):
-        path='/home/prashant/Dropbox/poisson_mesh_temporal/Code/Blender/'#bpy.utils.resource_path('USER')
+        path=bpy.utils.resource_path('USER')
         sourceInpt=np.loadtxt(path+'source_vertz.txt',delimiter=',')
         trgtInpt=np.loadtxt(path+'target_vertz.txt',delimiter=',')
         F=np.loadtxt(path+'facez.txt',delimiter=',').astype(int)
