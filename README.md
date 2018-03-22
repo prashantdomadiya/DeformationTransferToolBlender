@@ -3,6 +3,9 @@
 # Future improvement
 It will be improvised soon for non-identical source and traget meshes (have different resolutions) .... 
 
+# OS
+I create two versions "DeformationTransferUsingVGPI_Windows" for Windows and "DeformationTransferUsingVGPI" for Ububtu. The Windows version is a bit slow.
+
 # Dependency
 You must install following libreries for Python 3,
 1) Numpy 
