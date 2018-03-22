@@ -85,8 +85,8 @@ def FaceTransform(TargateTri,SourceTri,NVF):
 #                       PI Close Form
 #############################################################################################
 def GetMatrices(In):
-    Q=np.reshape(In[0:len(In)/2],(len(In)/6,3))
-    T=np.reshape(In[len(In)/2:],(len(In)/6,3))
+    Q=np.reshape(In[0:int(len(In)/2)],(int(len(In)/6),3))
+    T=np.reshape(In[int(len(In)/2):],(int(len(In)/6),3))
     temp=FaceTransform(T-np.mean(T,axis=0),Q-np.mean(Q,axis=0),len(Q))
     return np.reshape(temp,np.size(temp))
 
